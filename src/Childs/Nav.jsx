@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { NavLink } from "react-router"
 
 let Nav = ({clc})=>{
-console.log(clc)
+console.log(clcs)
 
     return(
         <>
