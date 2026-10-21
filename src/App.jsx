@@ -1,6 +1,6 @@
 import { createContext, use, useEffect, useRef, useState } from "react"
 import Notification from "./Notification"
-// import Bubble from "./Bubble Game/Bubble"
+import Bubble from "./Bubble Game/Bubble"
 // import Todolist2 from "./TodoList/Todolist2"
 // import Stars from "./Stars/Stars"
 // import Quiz from "./Quiz/Quiz"
@@ -61,7 +61,7 @@ let clc = () =>{
         return(
           <p>{d.name}</p>
         )})}   */}
-
+<Bubble/>
 
 {/* <BrowserRouter>
   <Routes>
@@ -75,8 +75,8 @@ let clc = () =>{
   </Routes>
 </BrowserRouter> */}
 
-<Nav clc={clc}/>
-<Home item={item}/>
+{/* <Nav clc={clc}/>
+<Home item={item}/> */}
 
 
 
